@@ -943,6 +943,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iOS+OFLib" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -1108,6 +1110,7 @@
 				OBJROOT = "$(SRCROOT)/../../lib/ios/build/debug";
 				SDKROOT = iphoneos;
 				SYMROOT = "$(SRCROOT)/../../lib/ios/";
+				VALID_ARCHS = "armv6 armv7";
 				WARNING_CFLAGS = (
 					"-Wno-non-virtual-dtor",
 					"-Wno-overloaded-virtual",
@@ -1126,6 +1129,7 @@
 				OBJROOT = "$(SRCROOT)/../../lib/ios/build/release";
 				SDKROOT = iphoneos;
 				SYMROOT = "$(SRCROOT)/../../lib/ios/";
+				VALID_ARCHS = "armv6 armv7";
 				WARNING_CFLAGS = (
 					"-Wno-non-virtual-dtor",
 					"-Wno-overloaded-virtual",
